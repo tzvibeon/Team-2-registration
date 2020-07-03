@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+body{
+    background: url(../img/bgimg.jfif);
+    background-size: cover;
+    
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+  
+    background-color: #fff;
+    box-shadow: 5px 5px 7px rgba(138, 146, 150, 0.212);
+    padding: 20px 35px;
+    border-radius: 10px;
+    margin-top: 27%;
+    margin-bottom: 17px;}
+
+::placeholder{
+    color: rgba(17, 20, 20, 0.582);
+    font-size: 11px;
+    font-weight: 700;
+    opacity: 0.6;
+    
+}
+
+
+h2{
+    text-align: center;
+    font-weight:bold;
+    padding-bottom: 20px;
+}
+form div{
+    position: relative;
+}
+form label{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    color:#7e7c7ce7 ;
+    font-size: 9px;
+}
+
+div span label{
+    
+    position: relative;
+    top:-14px;
+    font-size:10px ;
+    color: rgb(26, 21, 21);
+    
+
+}
+
+input[type="radio"]{
+    
+    width: 9px;
+    left: 0;
+
+    
+}
+input{
+ 
+    width: 200px;
+    height: 35px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    margin-top: 22px;
+    font-weight: 200;
+    
+
+}
+input[type="file"]{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border: none;
+    color: rgba(128, 128, 128, 0.61);
+    padding: 10px 0px;
+    margin-top: 29px;
+    border-bottom: 1px solid#8E8E8E;
+    cursor: pointer;
+    
+    
+}
+    select{
+    cursor: pointer;
+    padding-top: 27px;
+    padding-bottom: 14px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 50px;
+    margin-left: -2px;
+    -webkit-appearance: none;
+
+}
+
+
+.class::before,.course::before{
+    content: url(../img/sort.png);
+    position: absolute;
+    top: 22px;
+    right:-15px;
+    width: 40px;
+    height: 20px;
+    pointer-events: none;
+}
+textarea{
+    height: 66px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+input[type="text"],input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],input[type="file"],textarea,select,button{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom:1px solid #929292;
+    box-sizing: border-box;
+
+}
+.gender{
+    border-bottom:1px solid #929292;
+}
+textarea:focus,
+input[type="text"]:focus,input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom:1.5px solid #E10EEF;
+    box-sizing: border-box;
+    
+   
+   
+
+}
+input:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+textarea:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+.img::after{
+    content: url(../img/download.png);
+    transform: scale(0.08);
+    padding: 0 0 2px;
+    position: absolute;
+    top: -22px;
+    left: 379px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.txtArea{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+button{
+    outline: none;
+    margin-top: 60px;
+    border: none;
+    line-height: 2.5em;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+   
+    border-radius: 25px;
+    background: rgb(225,14,239);
+    background: linear-gradient(90deg, rgba(225,14,239,1) 37%, rgba(50,236,245,1) 100%);
+    cursor: pointer;
+    color: #fff;
+}

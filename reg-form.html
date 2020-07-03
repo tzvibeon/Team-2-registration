@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reg-form-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/svg.png" type="image/x-icon">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+       
+        <form autocomplete="off">
+            <h2>Registration!</h2>
+            <div class="img">
+                <label for="user_name">Your Name</label>
+                <input type="text" required id="user_name" placeholder="Enter your name">
+               
+            </div>
+            <div class="img">
+                <label for="nrc" >Your NRC</label>
+                <input type="text" required id="nrc" placeholder="Enter Your NRC number">
+
+            </div>
+            <div >
+                <label>Gender</label>
+                <div class="gender">
+                    <input type="radio" required id="male" name="gender" value="male">
+                   
+                    <span><label for="male" class="lbl_Male">Male</label></span>
+                    <input type="radio" required id="female" name="gender" value="female">
+                    
+                    <span><label for="female" class="lbl_female">Female</label></span>
+                     
+                </div>
+
+               
+            </div>
+            
+            <div class="img">
+                
+                <input type="text" required id="pwd" placeholder="Enter your password">
+                <label for="pwd">Password</label>
+            </div>
+            <div class="img">
+               
+                <input type="text" required id="address" placeholder="Enter Your address">
+                <label for="address">Your Address</label>
+            </div>
+            <div class="img">
+               
+                <input type="text" required id="email" placeholder="Enter Your email">
+                <label for="email">Your email</label>
+            </div>
+            <div class="img">
+               
+                <input type="tel" required id="phone" placeholder="Enter your phone number">
+                <label for="phone">Phone</label>
+            </div>
+            <div class="img">
+               
+                <input type="text" required id="quali" placeholder="Enter Your Qualification">
+                <label for="quali">Your Qualification</label>
+            </div>
+            <div>
+               
+                <input type="file" required id="file" accept="image/*">
+                <label for="file">Your Profile image</label>
+            </div>
+            <div class="class">
+              <!-- <div class="service">
+                   Choose services <img src="img/updown-512.webp">
+               </div>-->
+               <select id="classes">
+                   <option>Intermediate Class</option>
+                   <option>Advance Class </option>
+                   <option>Basis Class</option>
+               </select>
+                <label for="classes">Attended Class</label>
+            </div>
+            <div class="course">
+               <!-- <div class="budget">
+                    Select Budget <img src="img/updown-512.webp">
+                </div>--><select id="course">
+                   <option>Course-1 </option>
+                   <option>Course-2</option>
+                   <option>Course-3</option>
+               </select>
+                <label for="course">Select Class</label>
+            </div>
+            <div>
+               
+                <input type="date" required id="date" >
+                <label for="date">Date</label>
+            </div>
+            <div class="img">
+                
+                <textarea name="" class="txtArea" id="" cols="30" rows="10" placeholder="Your message here...."></textarea>
+                <label >Message</label>
+            </div>
+            
+            <div>
+               <button type="submit">Submit <span>&#10142</span></button>
+            </div>
+           
+        </form>
+       
+    </div>
+    
+</body>
+</html>

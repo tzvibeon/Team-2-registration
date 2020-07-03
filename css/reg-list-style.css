@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: rgb(23, 200, 253);
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.logo_name,.nav_links{
+    line-height: 55px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+   
+}
+.logo_name{
+  float: left;
+}
+.nav_links{
+    padding-left: 43px;
+}
+nav{
+    float: right;
+   
+}
+.nav-main{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+/* reg logo */
+
+
+.reg-logo{
+    width: 100%;
+    height: 370px;
+    background-image: url(../img/william-daigneault-Hx5vtx2e4KQ-unsplash.jpg);
+    background-position:top 140px;
+    background-size: cover;
+    opacity: 0.8;
+}
+.regist-content{
+    max-width: 1280px;
+    margin:auto;
+}
+
+img{
+   position: relative;
+   top: 110px;
+    width: 110px;
+    display: block;
+    height: 130;
+    margin: 0 auto;
+    border: 2px solid rgb(250, 246, 246);
+    border-radius: 90px;
+}
+
+.contentDetail{
+   
+    color: #fff;
+    text-align: center;
+   
+}
+h2{
+    border: 1px  solid #fff;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+.s-t-i{
+    margin-top: 10px;
+   text-align: center;
+   font-weight: 600;
+   color: #eee;
+   font-size: 15px;
+} 
+/* table section */
+
+div .table {
+
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.input{
+   
+  
+   margin: 0 auto;
+}
+.inputs-content{
+    padding-top: 30px;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 90%;
+}
+input[type="number"]{
+    width: 45px;
+   
+}
+label{
+    font-weight: 500px;
+    font-size: 14px;
+}
+.s_lbl{
+  float: right;
+    
+}
+input[type="search"]{
+  width: 100px;
+  height: 20px;
+  margin-bottom:40px ;
+  float: right;
+}
+/* table data */
+.stu-table{
+    width: 90%;
+    margin: 0 auto;
+}
+table{
+    margin-top: 26px;
+    border-collapse: collapse;
+    border: 1px solid rgba(126, 118, 113, 0.349);
+    width: 100%;
+    
+}
+tr,th,td{
+
+    padding: 12px;
+    
+}
+tr:not(.a){
+    background-color: rgb(233, 235, 235);
+}
+.bold-th{
+    font-weight: bold;
+}
+
+.name_up{
+  float: right;
+  color: black;
+}
+.name_down{
+  float: right;
+  color: black;
+}
+.opacity{
+    opacity: 0.5;
+}
+.fa-long-arrow-down{
+  opacity: 0.5;
+}
+.table-responive{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* paginations */
+
+.pagi{
+    margin-bottom: 0px;
+    width: 90%;
+    margin: 0 auto;
+}
+.pagination {
+    display: inline-flex;
+    /* margin-left: 426px;
+    margin-top: 20px; */
+    margin-top: 20px;
+    float: right;
+  }
+  span{
+       margin-top: 20px;
+       float: left;
+  }
+  
+  .pagination a {
+    color:rgba(89, 137, 241, 0.952);
+    float: left;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid rgb(175, 175, 175);
+  }
+  
+  
+  
+  .pagination a:hover{background-color: rgb(22, 121, 252);
+color:#FFF;}
+  
+  .pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgba(0, 0, 0, 0.74);
+  }
+  
+  .pagination a:last-child {
+      color: rgba(89, 137, 241, 0.952);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+}
+.pagination a:last-child:hover{
+    background-color: rgb(22, 121, 252);
+    color:#FFF;
+}
+ 
+.pagicontent{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* footer */
+.footer-container{
+    background-color: rgba(64, 64, 65, 0.699);
+    margin-top: 78px;
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: rgba(64, 64, 65, 0.699); */
+    color: #FFF;
+  
+  }
+  
+  h4,address{
+    text-align: center;
+    padding: 12PX;
+  }
+  .column{
+    padding:15px;
+    margin: 10px;
+    flex-basis: 33%;
+    cursor: pointer;
+  }
+  .social{
+    margin-left: -20px;
+    padding-left: 34px;
+    text-align: center;
+   
+  }
+  .card{
+    padding: 0px;
+  }
+  .about_reg{
+    font-size: 10px;
+    line-height: 20px;
+   
+  }
+  .about_reg a{
+    text-transform: none;
+    color: blue;
+    font-size: 10px;
+    
+    
+  }
+  .so{
+    margin: 3px;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  .fa-facebook{
+    margin: 2px;
+    padding: 12px 14px;
+  
+  }
+  
+  .fa-facebook:hover{
+    background-color: rgb(71, 117, 241);
+  }
+  
+  .fa-twitter:hover{
+    background-color: rgb(138, 192, 253);
+  }
+  .fa-dribbble:hover{
+    background-color: rgb(245, 16, 130);
+  }
+  .fa-linkedin:hover{
+    background-color: rgb(22, 121, 252);
+  }
+  .footer-content{
+
+      max-width: 1280px;
+      margin: 0 auto;
+  }
+  .footer-respo{
+      max-width: 1280px;
+      margin:0 auto
+  }
+  /* copyright */
+  
+.footer-copyright{
+    margin-top:-14px;
+    background-color: rgba(9, 9, 19, 0.925);
+    height: 50px;
+    width: 100%;
+
+   
+}
+p{
+    font-weight: 50px;
+    font-size: 11px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 14px;
+    color: #fff;
+}
+p>a{
+  text-decoration: none;
+}
+.copy-content{
+    max-width: 1280px;
+    margin: 0 auto;
+}
